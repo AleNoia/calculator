@@ -1,6 +1,7 @@
 function Calculator(){
-    // ======================================== [GET DISPLAY]
+    // ======================================== [VARIABLES]
     this.display = document.querySelector('.display');
+    this.lastResult = document.querySelector('.lastResult');
 
     // ======================================== [START CALCULATOR]
     this.start = () =>{
@@ -13,20 +14,23 @@ function Calculator(){
     this.getClicks = () => {
         document.addEventListener('click', e => {
             const el = e.target;
-            if (el.classList.contains('btn-num')) this.addNumDisplay(el);
             if (el.classList.contains('btn-calculate')) this.calculate();
+            if (el.classList.contains('btn-num')) this.addNumDisplay(el);
+            if (el.classList.contains('btn-changeSignal')) this.changeSignal(el);
+            if (el.classList.contains('btn-percent')) this.percent();
             if (el.classList.contains('btn-clear')) this.clear();
             if (el.classList.contains('btn-del')) this.del();
         })
     }
     
     // ======================================== [FUNCTIONS TO GETCLICKS()]
-
     // ==================== [CALCULATE]
     this.calculate = () => {
         try {
-            expression = new Function("return " + this.display.value);
-            result = expression();
+            let valueDisplay = this.display.value
+            expressionResult = new Function("return " + valueDisplay);
+            result = expressionResult();
+            this.lastResult.innerHTML = `${valueDisplay} = ${result}` 
             this.display.value = result
             
         } catch (e) {
@@ -35,7 +39,7 @@ function Calculator(){
         }
     }
     
-    // ======================================== [GET ENTER TO CALCULATE]
+    // ==================== [GET ENTER TO CALCULATE]
     this.getEnter = () =>{
         document.addEventListener('keyup', e => {
             if(e.keyCode === 13) this.calculate();
@@ -48,13 +52,27 @@ function Calculator(){
         this.display.focus()
     }
 
+    // ==================== [CHANGE SIGNAL]
+    this.changeSignal = () => {
+        let valueDisplay = -1*(this.display.value)
+        this.display.value = valueDisplay
+        this.display.focus()
+    }
+
+    // ==================== [PERCENT]
+    this.percent = () => {
+        let valueDisplay = (this.display.value)/100
+        this.display.value = valueDisplay
+        this.display.focus()
+    }
+
     // ==================== [CLEAR DISPLAY]
     this.clear = () => this.display.value = '';
 
     // ==================== [DELETE THE LAST CARACTER ON DISPLAY]
     this.del = () => this.display.value = this.display.value.slice(0, -1)
 
-    // ======================================== [GET DEL TO DELETE LAST VALUE]
+    // ==================== [GET DEL TO DELETE LAST VALUE]
     this.getDel = () =>{
         document.addEventListener('keypress', e => {
             if(e.keyCode === 8) this.del();
