@@ -6,13 +6,7 @@ function Calculator(){
     this.start = () =>{
         this.getClicks();
         this.getEnter();
-    }
-
-    // ======================================== [GET ENTER TO CALCULATE]
-    this.getEnter = () =>{
-        document.addEventListener('keyup', e => {
-            if(e.keyCode === 13) this.calculate();
-        })
+        this.getDel();
     }
 
     // ======================================== [GET THE CLICKS AND APPLIES A FUNCTION]
@@ -40,6 +34,13 @@ function Calculator(){
             return;
         }
     }
+    
+    // ======================================== [GET ENTER TO CALCULATE]
+    this.getEnter = () =>{
+        document.addEventListener('keyup', e => {
+            if(e.keyCode === 13) this.calculate();
+        })
+    }
 
     // ==================== [ADD SOMETHING TO THE DISPLAY]
     this.addNumDisplay = el => {
@@ -52,6 +53,13 @@ function Calculator(){
 
     // ==================== [DELETE THE LAST CARACTER ON DISPLAY]
     this.del = () => this.display.value = this.display.value.slice(0, -1)
+
+    // ======================================== [GET DEL TO DELETE LAST VALUE]
+    this.getDel = () =>{
+        document.addEventListener('keypress', e => {
+            if(e.keyCode === 8) this.del();
+        })
+    }
 }
 
 const calculator = new Calculator();
