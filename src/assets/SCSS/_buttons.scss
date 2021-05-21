@@ -1,0 +1,33 @@
+// ======================================== [IMPORTS]
+@import './_shadow.scss';
+@import './_colors.scss';
+@import './_transition.scss';
+
+.btn {
+    padding: 1.2em 2em;
+    font-size: 1.5;
+    transition: $transition;
+    background-color: rgba(255, 255, 255, 0);
+    border:none;
+    height: 40px
+
+    i,
+    h3 {
+        color: white !important;
+    }
+
+    &:hover {
+        box-shadow: $shadow3;
+        transform: scale(1.1);
+        background-color: $color2;
+
+        i {
+            transform: scale(1.2);
+        }
+    }
+
+    &:active {
+        transform: scale(0.99);
+        outline: none ;
+    }
+}
