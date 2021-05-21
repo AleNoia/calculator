@@ -1,0 +1,38 @@
+// ======================================== [IMPORTS]
+@import '../_shadow.scss';
+@import '../_colors.scss';
+
+footer {
+    width: 100%;
+    height: 50vh;
+    @include is-flex-column(center, flex-start);
+    padding: 3em;
+    box-shadow: $shadow4;
+    background-color: white;
+
+    span {
+        color: white;
+    }
+
+    span {
+        margin-left: .4em;
+    }
+
+    a {
+        text-decoration: underline;
+
+        &:hover {
+            color: $color1;
+        }
+    }
+
+    p {
+        margin-bottom: 1.2em;
+    }
+
+    .button-footer{
+        background-color: $color1;
+        margin-right: .8em;
+        border-radius: 10px;
+    }
+}

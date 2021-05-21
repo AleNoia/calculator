@@ -37,7 +37,7 @@ function Calculator() {
             expressionResult = new Function("return " + valueDisplay);
             result = expressionResult(); // Result
 
-            this.lastResult.innerHTML = `${valueDisplay} = ${result}`
+            this.getLastResult(valueDisplay, result);
             // this.expressions.push(`${valueDisplay} = ${result}`)
 
             // const expressionJson = JSON.stringify(this.expressions)
@@ -50,6 +50,11 @@ function Calculator() {
             this.display.value = '';
             return;
         }
+    }
+
+    // ==================== [GET THE LAST RESULT]
+    this.getLastResult = (valueDisplay, result) => {
+        return this.lastResult.innerHTML = `${valueDisplay} = ${result}`
     }
 
     // ==================== [GET ENTER TO CALCULATE]
