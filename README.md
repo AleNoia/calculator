@@ -105,7 +105,8 @@ this.getDel = () => {
 }
 ```
 ## To calculate
-```
+
+```javascript
 // ==================== [CALCULATE]
     this.calculate = () => {
         try {
