@@ -21,7 +21,6 @@ If you have any question, suggestion or want to contact, mail me:
 * 🗑 Delete the last value
 * 🗑 Delete all expression
 * 📋 Copy the result
-* 🎨 How to use CSS Grid
 
 ***
 
@@ -29,11 +28,13 @@ If you have any question, suggestion or want to contact, mail me:
 
 My purpose with this project is learn more about Javascript and how to do a calculator.
 
-During this project I learned:
+During this project I learned specially:
 
   * How to do a calculator
-  * How to use mathematical properties in Javascript
-  * Leran more abour SCSS
+  * More about how to use mathematical properties in Javascript
+  * More about SCSS
+  * How to use CSS Grid
+  * And so on
 
 ***
 # <a name="Installation"></a>🛠 Installation
@@ -64,7 +65,7 @@ git clone https://github.com/AleNoia/calculator.git
         this.getDel();
     }
 ```
-### Get the clicks and applies a function
+### Getting the clicks and applying to a function
 ```javascript
 // ======================================== [GET THE CLICKS AND APPLIES A FUNCTION]
 this.getClicks = () => {
@@ -83,7 +84,7 @@ this.getClicks = () => {
 }
 ```
 
-### Get enter to calculate
+### Getting enter to calculate
 
 ```javascript
 // ==================== [GET ENTER TO CALCULATE]
@@ -94,7 +95,7 @@ this.getClicks = () => {
     }
 ```
 
-### Get del to delete las value
+### Getting delete button to delete last value
 
 ```javascript
 // ==================== [GET DEL TO DELETE LAST VALUE]
@@ -104,7 +105,7 @@ this.getDel = () => {
     })
 }
 ```
-## To calculate
+## Calculating
 
 ```javascript
 // ==================== [CALCULATE]
