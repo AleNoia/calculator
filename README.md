@@ -51,7 +51,7 @@ git clone https://github.com/AleNoia/calculator.git
  
  It is very simple to use this calculator
  
- ![image](https://user-images.githubusercontent.com/82424777/119158141-49896300-ba2c-11eb-9ba3-d1dfda522aae.png)
+ ![image](https://user-images.githubusercontent.com/82424777/119163611-f0bcc900-ba31-11eb-9b6d-fbc9f052f3fb.png)
  
 ## To start the calculator
 
