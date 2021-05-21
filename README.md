@@ -20,6 +20,7 @@ If you have any question, suggestion or want to contact, mail me:
 * 🗑 Delete the last value
 * 🗑 Delete all expression
 * 📋 Copy the result
+* 🎨 How to use CSS Grid
 
 ***
 
