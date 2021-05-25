@@ -1,5 +1,7 @@
 # 🖩 Calculator
- This project is a simple calculator 
+This project is a simple calculator implemented with JavasScript
+ 
+ ![image](https://user-images.githubusercontent.com/82424777/119163611-f0bcc900-ba31-11eb-9b6d-fbc9f052f3fb.png)
  
 [App-ideas](https://github.com/florinpop17/app-ideas/blob/master/Projects/1-Beginner/Calculator-App.md) repository project / **Tier: beginner**
 
@@ -55,8 +57,6 @@ git clone https://github.com/AleNoia/calculator.git
 # <a name="Utilization"></a>📝 Utilization
  
  It is very simple to use this calculator
- 
- ![image](https://user-images.githubusercontent.com/82424777/119163611-f0bcc900-ba31-11eb-9b6d-fbc9f052f3fb.png)
  
 ## To start the calculator
 
