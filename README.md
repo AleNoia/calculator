@@ -1,9 +1,11 @@
 # 🖩 Calculator
- This is a simple calculator 
+ This project is a simple calculator 
  
-If you have any question, suggestion or want to contact, mail me:
+[App-ideas](https://github.com/florinpop17/app-ideas/blob/master/Projects/1-Beginner/Calculator-App.md) repository project / **Tier: beginner**
 
-📧 igornoiasilva@gmail.com.
+If you want to contact, mail me or send a message on Twitter
+
+📧 igornoiasilva@gmail.com / ☕ [@IgorNoiaSilva](https://twitter.com/IgorNoiaSilva)
 
 ***
 # 📌 Table of Contents
@@ -38,6 +40,8 @@ During this project I learned specially:
 
 ***
 # <a name="Installation"></a>🛠 Installation
+
+You need to download [git](https://git-scm.com) initially
 
 Run this command to clone the repository:
 
