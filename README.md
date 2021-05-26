@@ -1,13 +1,18 @@
-# 🖩 Calculator
+<h1 align="center">
+    🖩 Calculator
+</h1>
+
+<p align="center">
 This project is a simple calculator implemented with JavasScript
+</p>
+
+<p align="center">
+<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/AleNoia/calculator?color=%2304D361"> <img alt="Repository size" src="https://img.shields.io/github/repo-size/AleNoia/calculator"> <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen"> <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/AleNoia/calculator"> <a href="https://github.com/florinpop17/app-ideas/blob/master/Projects/1-Beginner/Calculator-App.md">
+  <img src="https://img.shields.io/badge/App%20Ideas%20-Beginner-%2304D361">
+</a>
+</p>
  
  ![image](https://user-images.githubusercontent.com/82424777/119163611-f0bcc900-ba31-11eb-9b6d-fbc9f052f3fb.png)
- 
-[App-ideas](https://github.com/florinpop17/app-ideas/blob/master/Projects/1-Beginner/Calculator-App.md) repository project / **Tier: beginner**
-
-If you want to contact, mail me or send a message on Twitter
-
-📧 igornoiasilva@gmail.com / ☕ [@IgorNoiaSilva](https://twitter.com/IgorNoiaSilva)
 
 ***
 # 📌 Table of Contents
@@ -16,6 +21,8 @@ If you want to contact, mail me or send a message on Twitter
 * 🛠 [Installation](#Installation)
 * 📝 [Utilization](#Utilization)
 * 🤝 [Contributing](#Contributing)
+* ⚙ [Technologies Used](#TechnologiesUsed)
+* 👋 [Author](#Author)
 * 🧾 [License](#License)
 ***
 
@@ -173,11 +180,37 @@ this.copyResult = () => {
 
 ```
 
+***
+# <a name="TechnologiesUsed"></a> ⚙ Technologies used
+
+Technologies that were used in the construction of the project:
+
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [HTML](https://www.w3.org/html/)
+- [SCSS](https://sass-lang.com)
 
 ***
 # <a name="Contributing"></a>🤝 Contributing
 
+1. Fork the project.
+2. Create a new branch with your changes: ```git checkout -b my-feature```
+3. Save your changes and create a commit message telling you what you did: ```git commit -m" feature: My new feature "```
+4. Submit your changes: ```git push origin my-feature```
+5. Now just open your pull request in the repository that you forked describing your changes
+6. After the merge of your pull request is done, you can delete yout branch
+
+> If you have any questions check [this guide](https://github.com/unform/unform/blob/main/.github/CONTRIBUTING.md) on how to contribute
+ 
 Feel free to contribute 🙂
+
+***
+# <a name="Author"></a>👋 Author
+
+### [Igor Noia Silva](https://github.com/AleNoia)
+
+If you want to contact, mail me or send a message on Twitter
+
+[![Gmail Badge](https://img.shields.io/badge/-igornoiasilva@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:igornoiasilva@gmail.com)](mailto:igornoiasilva@gmail.com)  ![badge](https://img.shields.io/twitter/url?label=%40IgorNoiaSilva&style=social&url=https%3A%2F%2Ftwitter.com%2FIgorNoiaSilva)
 
 ***
 # <a name="License"></a>🧾 License
